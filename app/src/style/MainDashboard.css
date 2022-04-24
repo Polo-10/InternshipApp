@@ -1,0 +1,26 @@
+.main {
+  width: calc(100% - 290px);
+  height: calc(100% - 70px);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  z-index: -1;
+  background: #f6f6f6;
+}
+.main-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #232233;
+  margin-left: 32px;
+  margin: 24px 0 23px 32px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 70px;
+  column-gap: 103px;
+  padding-left: 32px;
+}

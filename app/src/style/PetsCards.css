@@ -1,0 +1,104 @@
+.main-card {
+  width: 455px;
+  height: 546px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+}
+.card-wrapper {
+  position: relative;
+  max-height: 72px;
+  /* box-sizing: border-box; */
+}
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  max-height: 72px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 7px 0 0 25px;
+  color: #616161;
+}
+
+.dog-name {
+  font-size: 30px;
+}
+
+.icon {
+  padding: 10px 30px 23px 0;
+}
+
+.info-contener-dog {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 7px 30 0 25px;
+  margin-top: 24px;
+}
+
+.contener-dog-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: 49px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.contener-dog-item:nth-child(1) {
+  margin: 0 0 0 25px;
+  width: 77px;
+}
+
+.contener-dog-item:nth-child(2) {
+  width: 92px;
+}
+.contener-dog-item:nth-child(3) {
+  width: 92px;
+}
+.contener-dog-item:nth-child(4) {
+  margin: 0 28px 0 0;
+  width: 110px;
+}
+
+.dog-item-details {
+  font-size: 14px;
+  font-weight: 700;
+  color: #616161;
+}
+
+.dog-item-info {
+  color: #cccccc;
+  font-size: 12px;
+  height: 15px;
+}
+
+.edit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-button {
+  width: 213px;
+  height: 52px;
+  background: #0de18c;
+  border-radius: 16px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 23px 28px 38px 0;
+  transition: 0.3;
+  cursor: pointer;
+}
+.edit-button:hover {
+  background: #51cf9d;
+}

@@ -1,0 +1,40 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Moniak",
+      "image": "",
+      "age": 1,
+      "color": "Czarny",
+      "weight": "1.2",
+      "isSterilized": "Tak"
+    },
+    {
+      "id": 2,
+      "name": "Moniak",
+      "image": "",
+      "age": 1,
+      "color": "Czarny",
+      "weight": "2.2",
+      "isSterilized": "Tak"
+    },
+    {
+      "id": 3,
+      "name": "Moniak",
+      "image": "",
+      "age": 5,
+      "color": "Biały",
+      "weight": "1.2",
+      "isSterilized": "Nie"
+    },
+    {
+      "id": 4,
+      "name": "Moniak",
+      "image": "",
+      "age": 2,
+      "color": "Czerwony",
+      "weight": "4.2",
+      "isSterilized": "Nie"
+    }
+  ]
+}
